@@ -22,7 +22,7 @@ https://data.mendeley.com/datasets/pk6tzrjks8/1
 ```text
 DoAn/
 ├── Data/                     # Dataset and sliding-window data
-├── images/                   # Figures and pipeline images
+├── images/                   # EDA figures and pipeline images
 ├── models/                   # Trained models
 ├── streaming/                # Real-time prediction system
 │   ├── data/
