@@ -26,8 +26,11 @@ DoAn/
 ├── models/                   # Trained models
 ├── streaming/                # Real-time prediction system
 │   ├── data/
-│   │   ├──data.ipynb         # Create data for streaming     
-│   ├── models/               # Models and its's scaler
+│   │   ├──data.ipynb                     # Create data simulation_stream.csv for streaming
+│   │   ├──latest_predictions.json        # Lasted prediction from streaming
+│   │   ├──simulation_stream.csv          # Create data for streaming
+│   │   ├──streaming_history.csv          # Create data for streaming
+│   ├── models/                           # Lasted streaming history
 │   ├── producer.py           
 │   ├── spark_consumer.py           # Consumer without mongodb
 │   ├── spark_consumer_mongodb.py   # Consumer with mongodb
