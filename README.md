@@ -28,9 +28,9 @@ DoAn/
 │   ├── data/
 │   │   ├──data.ipynb                     # Create data simulation_stream.csv for streaming
 │   │   ├──latest_predictions.json        # Lasted prediction from streaming
-│   │   ├──simulation_stream.csv          # Create data for streaming
-│   │   ├──streaming_history.csv          # Create data for streaming
-│   ├── models/                           # Lasted streaming history
+│   │   ├──simulation_stream.csv          # Sample data for streaming
+│   │   ├──streaming_history.csv          # Lasted streaming history
+│   ├── models/                           # Models and ít's scaler
 │   ├── producer.py           
 │   ├── spark_consumer.py           # Consumer without mongodb
 │   ├── spark_consumer_mongodb.py   # Consumer with mongodb
