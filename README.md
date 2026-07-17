@@ -48,11 +48,7 @@ git clone <repository-url>
 cd DoAn
 ```
 
-### Install dependencies
 
-```bash
-pip install -r requirements.txt
-```
 
 ### Run Streaming Pipeline
 
