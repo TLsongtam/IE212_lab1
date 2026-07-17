@@ -26,18 +26,14 @@ DoAn/
 ├── models/                   # Trained models
 ├── streaming/                # Real-time prediction system
 │   ├── data/
-│   ├── models/
-│   ├── producer.py
-│   ├── spark_consumer.py
-│   ├── spark_consumer_mongodb.py
-│   ├── app_dashboard.py
-│   └── app_dashboard_mongodb.py
-├── data_preprocess.ipynb      # Data preprocessing
-├── producer.py
-├── spark_consumer.py
-├── spark_consumer_mongodb.py
-├── app_dashboard.py
-├── app_dashboard_mongodb.py
+│   │   ├──data.ipynb         # Create data for streaming     
+│   ├── models/               # Models and its's scaler
+│   ├── producer.py           
+│   ├── spark_consumer.py           # Consumer without mongodb
+│   ├── spark_consumer_mongodb.py   # Consumer with mongodb
+│   ├── app_dashboard.py            # App without mongodb
+│   └── app_dashboard_mongodb.py    # App with mongodb
+
 └── README.md
 ```
 
