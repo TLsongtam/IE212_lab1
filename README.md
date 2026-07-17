@@ -15,8 +15,8 @@ A Big Data course project for forecasting **PM2.5 concentration** in Ho Chi Minh
 ---
 
 ## Dataset
-[The HelthyAir Dataset: Outdoor Air Quality in Ho Chi Minh City, Vietnam]
-[The HelthyAir Dataset: Outdoor Air Quality in Ho Chi Minh City, Vietnam]: https://data.mendeley.com/datasets/pk6tzrjks8/1
+
+[The HelthyAir Dataset: Outdoor Air Quality in Ho Chi Minh City, Vietnam](https://data.mendeley.com/datasets/pk6tzrjks8/1)
 ## Project Structure
 
 ```text
